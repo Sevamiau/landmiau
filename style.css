@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+    margin: 0 auto;
+}
+
 .roboto {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -55,6 +59,14 @@
     color: #E5E7EB;
 }
 
+button {
+    background-color: #3882f6;
+    color:white;
+    /* border-bottom: #E5E7EB;
+    border-color: #E5E7EB; */
+    position: relative;
+    font-size: 20px;
+}
 
 .info {
     margin: 20px;
@@ -67,29 +79,30 @@
 .fotos{
     display: flex;
     justify-content: space-evenly;
-    padding: 0 8rem 0 8rem;
+    padding: 0 8rem;
 
 }
 
 .quote {
-    background-color: #616367;
-    opacity: 0.5;
+    background-color: #a3a5a9;
+    /* opacity: 0.5; */
+    flex-direction: column;
 }
 
 .quote1 {
-    color: white;
+    font-style: italic;
     display: flex;
-    justify-content: space-evenly;
     padding: 9rem;
     margin-top: 7rem;
     font-weight: 300;
 }
 
-.quote2 {
+/* #quote2 {
     font-size: large;
     color: black;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    padding: 0 20rem 0 20rem;
 }
 
 img {
@@ -106,16 +119,33 @@ img {
     color: white;
     display: flex;
     flex-direction: column;  
-}
+} */
 
 
 
 .c1 {
     font-size: 22px;
     font-weight: 700;
+    
 }
 
 .c2{
     font-size: 10px;
     font-weight: 300;
+}
+
+.cierre{
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    font-size: 10px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+
+#boton {
+    bottom: 20px;
+    left: 28rem;
+    outline: #E5E7EB;
 }
