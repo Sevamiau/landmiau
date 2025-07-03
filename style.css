@@ -95,14 +95,11 @@ button {
     padding: 9rem;
     margin-top: 7rem;
     font-weight: 300;
+    flex-direction: inherit;
 }
 
-/* #quote2 {
-    font-size: large;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    padding: 0 20rem 0 20rem;
+.quote2 {
+    
 }
 
 img {
@@ -119,7 +116,7 @@ img {
     color: white;
     display: flex;
     flex-direction: column;  
-} */
+}
 
 
 
