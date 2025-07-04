@@ -28,8 +28,7 @@ body {
 }
 
 .header {
-    margin-right: 1rem;
-    margin-left: 10rem;
+    margin: 0 1rem 0 10rem;
 }
 
 .link1 {
@@ -41,10 +40,8 @@ body {
     background-color: #1f2937;
     display: flex;
     justify-content: space-evenly;
-    padding: 3rem;
-    padding-left: 9rem;
-    padding-right: 9rem;
-}
+    padding: 3rem 9rem;
+} 
 
 
 .hero {
@@ -53,19 +50,20 @@ body {
     font-weight: 900;
 }
 
-
 .hero2 {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 300;
 }
 
 button {
+    border-color: white;
     background-color: #3882f6;
     color:white;
-    /* border-bottom: #E5E7EB;
-    border-color: #E5E7EB; */
     position: relative;
     font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .info {
@@ -79,56 +77,53 @@ button {
 .fotos{
     display: flex;
     justify-content: space-evenly;
-    padding: 0 8rem;
-
-}
-
-.quote {
-    background-color: #a3a5a9;
-    /* opacity: 0.5; */
-    flex-direction: column;
-}
-
-.quote1 {
-    font-style: italic;
-    display: flex;
-    padding: 9rem;
-    margin-top: 7rem;
-    font-weight: 300;
-    flex-direction: inherit;
-}
-
-.quote2 {
+    margin: 0 8rem;
     
 }
 
 img {
     border-radius: 20%;
+    border: 3px solid #3882f6;
 }
 
 
-.call {
+.quote {
+    background-color: #a3a5a9;
+    font-style: italic;
     display: flex;
-    justify-content: center;
+    padding: 9rem;
+    margin-top: 7rem;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote2 {
+    padding-left: 25rem;
+    padding-top: 30px;
+    font-size: 25px;
+    color: black;
+    font-weight: 400;
+}
+
+.call {
     background-color: #3882f6;
-    padding: 3rem;
-    margin: 6rem 7rem 7rem 7rem;
+    padding: 2rem;
+    margin: 7rem;
     color: white;
     display: flex;
     flex-direction: column;  
+    border-radius: 20px;
 }
 
-
-
 .c1 {
-    font-size: 22px;
-    font-weight: 700;
-    
+    font-size: 30px;
 }
 
 .c2{
     font-size: 10px;
     font-weight: 300;
+
 }
 
 .cierre{
@@ -139,10 +134,10 @@ img {
     font-weight: 100;
     display: flex;
     justify-content: center;
+    font-size: 15px;
 }
 
 #boton {
-    bottom: 20px;
+    bottom: 28px;
     left: 28rem;
-    outline: #E5E7EB;
 }
